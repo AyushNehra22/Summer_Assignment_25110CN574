@@ -14,9 +14,9 @@ void reverse(int arr[] , int size){
 int main(){
     int room[5]={2,4,5,1,8};
     reverse(room ,5);
+    cout<<"reverse is: ";
     for(int i=0;i<5;i++){
-    cout<<"reverse is: "<< room[i] <<" ";
-    cout<<endl;
+    cout<<room[i]<<" ";
     }
     return 0;
 }
